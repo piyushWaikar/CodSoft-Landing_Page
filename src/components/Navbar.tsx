@@ -4,8 +4,8 @@ const Navbar = () => {
   const location = useLocation();
   return (
     <div className="absolute z-50 top-0 left-0 flex w-full md:px-12 lg:px-24 px-3  items-center gap-4 md:gap-8 lg:h-28 bg-transparent">
-        <div className="flex justify-center  flex-col">
-            <h1 className=" md:text-xl lg:text-3xl ">CodSoft</h1>
+        <div className="flex justify-center flex-col leading-4 mt-2 md:mt-0">
+            <h1 className=" md:text-xl lg:text-3xl">CodSoft</h1>
             <h3 className="text-amber-700 md:text-lg lg:text-2xl">Code.Create.Success</h3>
         </div>
         <div className="md:flex hidden md:gap-4  lg:gap-10 items-center md:text-lg lg:text-xl text-[#359381]">
