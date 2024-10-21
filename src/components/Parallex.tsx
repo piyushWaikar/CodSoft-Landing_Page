@@ -16,7 +16,7 @@ const ref = useRef<HTMLDivElement | null>(null);
   const XBg = useTransform(scrollYProgress, [0, 1], ["0%", "80%"]);
 
   return (
-  <div ref={ref} className="relative h-[26vh] sm:h-[50vh] md:h-[60vh] lg:h-[114vh] w-full overflow-hidden flex justify-center items-center bg-[#f9f9f9]">
+  <div ref={ref} className="relative h-[26vh] sm:h-[50vh] md:h-[60vh] lg:h-[112vh] w-full overflow-hidden flex justify-center items-center bg-[#f9f9f9]">
     <motion.div style={{ y: yText, opacity: nYText }}
       className="z-10 flex absolute flex-col w-full h-full justify-center gap-4 md:gap-20 items-center px-4 text-center">
       <motion.h1
